@@ -1,6 +1,11 @@
 # Project Health Analyzer
 
-A CLI tool for analyzing Python project dependencies, generating SBOMs, visualizing dependency/license relationships, and identifying security and license risks.
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
+![Platform](https://img.shields.io/badge/Platform-Linux-informational?logo=linux)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Alpha-yellow)
+
+> **A CLI tool for analyzing Python project dependencies, generating SBOMs, visualizing dependency/license relationships, and identifying security and license risks.**
 
 ## Features
 - **Dependency Analysis:**
