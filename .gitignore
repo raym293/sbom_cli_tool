@@ -1,1 +1,5 @@
 venv/
+test.py
+dependancies.txt
+licenses.json
+licenses.txt

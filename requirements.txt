@@ -1,0 +1,12 @@
+# Dependancy analysis
+pipdeptree
+pip-licenses
+# SBOM generation
+cyclonedx-python-lib
+spdx-tools
+# Visualisation
+pydeps
+Graphviz
+# Risk analysis 
+safety
+pip-audit
