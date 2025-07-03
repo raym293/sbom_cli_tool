@@ -17,41 +17,41 @@ A hands-on project to learn about SBOMs, dependency graphs, and Python supply ch
 ### 1. Dependency Analysis
 **Tools:** pipdeptree, pip-licenses
 
-- Create a new Python project with a `requirements.txt`:
+- [x] Create a new Python project with a `requirements.txt`:
   ```
   flask
   blinker
   requests
   pandas
   ```
-- Write a script to:
-  - Set up a virtual environment and install dependencies
-  - Run `pipdeptree` → save as `dependencies.txt`
-  - Run `pip-licenses` → save as `licenses.json`
+- [x] Write a script to:
+  - [ ] Set up a virtual environment and install dependencies
+  - [x] Run `pipdeptree` → save as `dependencies.txt`
+  - [x] Run `pip-licenses` → save as `licenses.json`
 
 ### 2. SBOM Generation
 **Tools:** cyclonedx-python, spdx-tools
 
-- Extend the script to:
-  - Generate a CycloneDX SBOM (`sbom.xml`)
-  - Generate an SPDX SBOM (`sbom.spdx`)
-  - Compare the two formats
+- [ ] Extend the script to:
+  - [ ] Generate a CycloneDX SBOM (`sbom.xml`)
+  - [ ] Generate an SPDX SBOM (`sbom.spdx`)
+  - [ ] Compare the two formats
 
 ### 3. Visualization
 **Tools:** pydeps, Graphviz
 
-- Add features to:
-  - Generate a PNG dependency graph with pydeps
-  - Color-code licenses (e.g., red for GPL, green for MIT)
-  - Output an HTML report summarizing findings
+- [ ] Add features to:
+  - [ ] Generate a PNG dependency graph with pydeps
+  - [ ] Color-code licenses (e.g., red for GPL, green for MIT)
+  - [ ] Output an HTML report summarizing findings
 
 ### 4. Risk Analysis
 **Tools:** safety, pip-audit
 
-- Integrate:
-  - `pip-audit` for vulnerability scanning
-  - Outdated package detection
-  - Highlight restrictive licenses (GPL, AGPL)
+- [ ] Integrate:
+  - [ ] `pip-audit` for vulnerability scanning
+  - [ ] Outdated package detection
+  - [ ] Highlight restrictive licenses (GPL, AGPL)
 
 ---
 
