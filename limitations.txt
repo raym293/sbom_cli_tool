@@ -1,1 +1,4 @@
 assumes virtual env is venv
+
+right now its giving results for the venv in which all the src code for the cl tool is,
+i want it to work for any venv
